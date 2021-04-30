@@ -19,8 +19,10 @@ export class MovieComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  saveMovie(): any {
-    return {};
+  saveMovie(mForm): any {
+    console.log({title: 'MyTitle', year: 2000, category: 'Action'});
+    return {
+    };
   }
 
 }
